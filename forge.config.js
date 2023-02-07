@@ -18,21 +18,5 @@ module.exports = {
       name: '@electron-forge/maker-rpm',
       config: {},
     },
-    // Added by gukt
-    // {
-    //   name: '@electron-forge/maker-appx',
-    //   config: {
-    //     publisher: 'CN=developmentca',
-    //     devCert: 'C:\\devcert.pfx',
-    //     certPass: 'abcd'
-    //   }
-    // },
-    {
-      name: '@electron-forge/maker-dmg',
-      config: {
-        // background: './assets/dmg-background.png',
-        format: 'ULFO'
-      }
-    }
   ],
 };
