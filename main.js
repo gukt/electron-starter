@@ -13,6 +13,8 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
+    transparent: true, 
+    frame: false,
     // Web 页面功能设置
     webPreferences: {
       // 指定一个脚本文件，该脚本文件在页面上所有文件运行之前加载。
