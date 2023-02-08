@@ -1,14 +1,14 @@
 {
   "name": "electron-playground",
   "version": "1.0.0",
-  "description": "Hello world",
+  "description": "Electron Playground",
   "main": "main.js",
   "author": "http://github.com/gukt",
   "license": "MIT",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge --verbose make"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.4",
@@ -16,9 +16,11 @@
     "@electron-forge/maker-rpm": "^6.0.4",
     "@electron-forge/maker-squirrel": "^6.0.4",
     "@electron-forge/maker-zip": "^6.0.4",
+    "@electron-forge/maker-dmg": "^6.0.5",
     "electron": "^22.2.0"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "update-electron-app": "^2.0.1"
   }
 }
