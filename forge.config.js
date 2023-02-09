@@ -2,7 +2,7 @@ module.exports = {
   packagerConfig: {
     // 这里全局提提供 icon 的设置（NOTE：不要提供后缀名）
     // 这样就不需要在每个 maker 内部的 config 里配置 icon
-    icon: './assets/youdao-icon',
+    icon: './assets/app-icon',
     // 启用在 macOS 上进行代码签名。
     // 在大多数情况下，osxSign 的配置附带了开箱即用的默认值，
     // 因此我们建议您从一个空配置对象开始。
