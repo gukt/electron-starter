@@ -1,6 +1,6 @@
 {
   "name": "electron-playground",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Electron Playground",
   "main": "main.js",
   "author": "http://github.com/gukt",
